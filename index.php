@@ -47,6 +47,12 @@
                     <li class="nav-item">
                         <a class="nav-link" href="eliminar.php">Eliminar Transacción</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="proveedor.php">Proveedores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="categoria.php">Categorías</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -66,6 +72,12 @@
             </div>
             <div class="col-md-3">
                 <a href="eliminar.php" class="btn btn-danger btn-lg w-100 mb-3">Eliminar Transacción</a>
+            </div>
+            <div class="col-md-6">
+                <a href="proveedor.php" class="btn btn-info btn-lg w-100 mb-3">Gestionar Proveedores</a>
+            </div>
+            <div class="col-md-6">
+                <a href="categoria.php" class="btn btn-secondary btn-lg w-100 mb-3">Gestionar Categorías</a>
             </div>
         </div>
     </div>
