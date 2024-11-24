@@ -3,7 +3,7 @@
 $host = 'localhost';
 $dbname = 'universe_arcade_db';
 $user = 'root';
-$password = '';
+$password = 'root';
 
 // Crear conexión
 try {

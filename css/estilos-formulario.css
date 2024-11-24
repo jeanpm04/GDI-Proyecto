@@ -1,0 +1,61 @@
+/* Estilo para el contenedor del formulario */
+.form-container {
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Estilo para el título del formulario */
+h1 {
+    font-size: 28px;
+    color: #457b9d;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Estilo para la etiqueta de entrada */
+label {
+    font-size: 16px;
+    color: #333;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Estilo para el campo de entrada (input) */
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+/* Estilo para el botón */
+button {
+    background-color: #457b9d;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+/* Efecto al pasar el ratón sobre el botón */
+button:hover {
+    background-color: #346d81;
+}
+
+/* Añadir espaciado después del botón */
+button:focus {
+    outline: none;
+}

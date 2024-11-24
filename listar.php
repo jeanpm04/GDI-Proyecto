@@ -1,5 +1,6 @@
 <?php
-include 'conexion.php';
+include 'config/conexion.php';
+
 
 // Llamada al procedimiento almacenado para listar las transacciones
 $stmt = $conn->prepare("CALL SP_ListarTransacciones()");
